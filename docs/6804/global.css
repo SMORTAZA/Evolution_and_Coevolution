@@ -1,0 +1,1618 @@
+.featurePanel {
+  height: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #eee;
+  background-position: center center;
+  padding: 20px 0; }
+
+.featurePanelInner {
+  background: rgba(250, 250, 250, 0.92);
+  padding: 20px; }
+
+@media (min-width: 768px) {
+  .featurePanel {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+
+  .featurePanelInner {
+    position: absolute;
+    bottom: 20px; } }
+@media (min-width: 930px) {
+  .featurePanelInner {
+    bottom: 0; } }
+@media (min-width: 1024px) {
+  .featurePanelInner {
+    bottom: 20px; } }
+.featurePanel h3 {
+  font-size: 1.5rem !important;
+  line-height: 1.25em !important;
+  font-family: "Merriweather", Georgia, serif !important;
+  font-weight: normal !important;
+  margin-bottom: 0.25em !important; }
+
+.featurePanel p {
+  font-size: 0.9375rem !important;
+  line-height: 1.55em !important;
+  margin-bottom: 0.5em !important; }
+
+.featurePanel p:last-child {
+  margin-bottom: 0 !important; }
+
+/*FEATURED ARTICLE PANEL CSS*/
+.widget.widget-SelfServeContent.widget-instance-annonc_Home_Row1_Middle {
+  padding-left: 0 !important; }
+
+.featuredArticlePanel {
+  border: 1px solid #cfd5e4;
+  padding: 20px 15px;
+  color: #2a2a2a; }
+
+.articleCategories {
+  font-size: 0.85rem;
+  letter-spacing: 0.03rem;
+  line-height: 1.2rem;
+  text-transform: uppercase; }
+
+.articleCategories span {
+  margin-right: 2rem; }
+
+.articleCategories span:last-child {
+  margin-right: 0; }
+
+.featuredArticleImage {
+  float: left;
+  max-width: 150px;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  margin-bottom: 0.3rem; }
+
+@media (min-width: 550px) {
+  .featuredArticlePanel {
+    padding: 0;
+    border: none; } }
+@media (min-width: 768px) {
+  .featuredArticlePanel {
+    padding-right: 30px; } }
+@media (min-width: 930px) {
+  .featuredArticlePanel {
+    padding-right: 0; } }
+@media (min-width: 1200px) {
+  .featuredArticlePanel {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px; } }
+.articleSnippetImage {
+  float: left;
+  max-width: 100px;
+  padding-right: 1rem !important;
+  padding-top: 0.5rem !important;
+  margin-bottom: 0.3rem; }
+
+/*6 PANEL ARTICLE ROW*/
+.row-six-articles .homepageArticle {
+  margin-bottom: 1.25em;
+  border-bottom: 1px solid #cfd5e4;
+  padding-bottom: 1.25em; }
+
+.row-six-articles .homepageArticle:last-of-type {
+  margin-bottom: 0;
+  border-bottom: none;
+  padding-bottom: 0; }
+
+.related-title-wrap {
+  width: 110px; }
+
+.related-titles-container img {
+  height: 130px !important; }
+
+.pg_index .row-journal-features iframe, #Sidebar .widget-AdBlock iframe {
+  border: 1px solid #cfd5e4 !important; }
+
+#adBlockMainBodyTop > div, #adBlockMainBodyBottom > div {
+  margin-left: auto;
+  margin-right: auto;
+  display: block !important; }
+
+.pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:nth-child(odd) > .widget-dynamic-inner-wrap .widget-SelfServeContent .homepage-panel-image {
+  margin-bottom: 20px; }
+
+@media all and (min-width: 930px) {
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:not(.row-journal-features):nth-child(odd) > .widget-dynamic-inner-wrap .widget-SelfServeContent {
+    -webkit-box-sizing: content-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box;
+    /* Firefox, other Gecko */
+    box-sizing: content-box;
+    /* Opera/IE 8+ */ } }
+
+@media all and (min-width: 831px) {
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic[data-count="3"]:not(.row-journal-features):nth-child(odd) > .widget-dynamic-inner-wrap .widget-SelfServeContent {
+    -webkit-box-sizing: content-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: content-box;
+    /* Firefox, other Gecko */
+    box-sizing: content-box;
+    /* Opera/IE 8+ */ } }
+
+.pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget h3.widget-dynamic-title {
+  margin-bottom: 1.25rem !important;
+  margin-top: 0.4rem !important; }
+
+.location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic.row-lists:nth-child(odd) > .widget-dynamic-inner-wrap .widget h3 {
+  margin-bottom: 1.25rem !important;
+  margin-top: 0.4rem !important; }
+
+@media (min-width: 1100px) {
+  .row-hero-panel .widget-dynamic-inner-wrap .widget {
+    width: calc(50% - 13px) !important; }
+
+  .row-hero-panel .widget-dynamic-inner-wrap .widget:not(:first-child) {
+    width: calc(50% - 38px) !important; }
+
+  .row-hero-panel .widget-dynamic-inner-wrap .widget:not(:first-child) .homepage-panel-text {
+    margin-left: 31.5%;
+    padding-top: 3px !important; } }
+.pg_index a h3, h3 a {
+  color: #2a2a2a; }
+  .pg_index a h3:hover, h3 a:hover {
+    color: #2a2a2a; }
+
+.widget-dynamic__header {
+  padding: 0 25px;
+  margin-top: -5px; }
+
+@media all and (max-width: 549px) {
+  .widget-dynamic__header {
+    padding: 0 10px;
+    text-align: left;
+    margin-bottom: 25px; }
+    .widget-dynamic__header h3 {
+      padding-left: 18px;
+      position: relative;
+      margin-bottom: 0;
+      font-size: 20px;
+      font-weight: bold;
+      line-height: 1.25em; }
+
+  .widget-dynamic__underbar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 98%;
+    width: 5px; } }
+.location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular ~ .widget, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList ~ .widget {
+  margin-right: 25px;
+  border: 1px solid #cfd5e4;
+  padding: 22px !important;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular:last-of-type, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList:last-of-type, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular ~ .widget:last-of-type, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList ~ .widget:last-of-type {
+    margin-right: 0; }
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular .widget-dynamic-entry-wrap, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList .widget-dynamic-entry-wrap, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular ~ .widget .widget-dynamic-entry-wrap, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList ~ .widget .widget-dynamic-entry-wrap {
+    padding: 0; }
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular h3, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList h3, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular ~ .widget h3, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(odd):not([data-count="1"]) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList ~ .widget h3 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-top: 0.4rem !important;
+    margin-bottom: 1.25rem !important; }
+
+@media all and (min-width: 550px) and (max-width: 929px) {
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic[data-count="4"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic[data-count="4"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic[data-count="4"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular ~ .widget, .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic[data-count="4"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-SelectableContentList ~ .widget {
+    margin-right: 0;
+    width: calc(50% - 12px);
+    flex: 0 auto; } }
+.pg_index .fb .widget-dynamic-entry-wrap, .pg_index .widget-layout--vert .widget-dynamic-entry-wrap {
+  padding: 0px 7px; }
+
+@media (max-width: 549px) {
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget:not(:last-of-type) {
+    margin-bottom: 25px; }
+
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:nth-child(odd) > .widget-dynamic-inner-wrap .widget-SelfServeContent .homepage-panel-text {
+    padding: 0 0 0px 0; }
+
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:not(.row-journal-features):not(.row-related-titles):nth-child(odd) > .widget-dynamic-inner-wrap .widget {
+    padding: 0;
+    border: 1px solid #cfd5e4 !important;
+    padding: 20px 20px 25px 20px !important; }
+    .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:not(.row-journal-features):not(.row-related-titles):nth-child(odd) > .widget-dynamic-inner-wrap .widget .homepage-panel-image {
+      margin: -20px;
+      width: calc(100% + 40px) !important;
+      margin-bottom: 20px; } }
+.pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:nth-child(even) > .widget-dynamic-inner-wrap .widget {
+  padding-bottom: 25px;
+  -webkit-box-sizing: border-box;
+  /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;
+  /* Firefox, other Gecko */
+  box-sizing: border-box;
+  /* Opera/IE 8+ */ }
+
+.selfserve-nav-menu-wrap {
+  padding-right: 0; }
+
+ul.selfserve-nav-menu-child-list {
+  margin-left: 0; }
+
+li.selfserve-nav-menu-child-list {
+  position: relative;
+  margin-left: 0;
+  padding-left: 20px; }
+
+.subnav-toggle {
+  left: 0;
+  top: 0;
+  margin: 0;
+  position: absolute; }
+
+a.connect-link {
+  padding-left: 24px; }
+
+img.connect-icon {
+  position: absolute;
+  left: 0; }
+
+ul.connect-column li {
+  margin-bottom: 1rem !important;
+  line-height: 1em !important; }
+
+.navbar-menu .site-menu-item ul li a, .navbar-menu .mobile-menu ul li a {
+  float: none; }
+
+.pg_article .access-state-logos {
+  font-size: 13px;
+  line-height: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: .1rem; }
+
+.pg_issue .image-synopsis-wrap > div {
+  vertical-align: top; }
+
+.pg_issue .image-synopsis-wrap .issue-featured-image {
+  padding-top: 5px;
+  width: 115px; }
+
+#adBlockFooter {
+  width: auto; }
+
+#ContentColumn .widget-SelfServeContent ol {
+  padding-left: 2.5em; }
+#ContentColumn .widget-SelfServeContent li {
+  margin-bottom: 0.5em; }
+  #ContentColumn .widget-SelfServeContent li p {
+    margin-bottom: 0.5em; }
+  #ContentColumn .widget-SelfServeContent li:last-child {
+    margin-bottom: 0; }
+  #ContentColumn .widget-SelfServeContent li ul, #ContentColumn .widget-SelfServeContent li ol {
+    margin-top: 0.5em !important; }
+#ContentColumn .widget-SelfServeContent .section {
+  margin-top: 2.5rem; }
+  #ContentColumn .widget-SelfServeContent .section:first-child {
+    margin-top: 0; }
+#ContentColumn .widget-SelfServeContent .floatLeft {
+  float: left;
+  margin-bottom: 1rem;
+  margin-right: 1rem; }
+#ContentColumn .widget-SelfServeContent .floatRight {
+  float: right;
+  margin-bottom: 1rem;
+  margin-left: 1rem; }
+
+@media all and (min-width: 930px) {
+  .pg_issue #largeJumptoSection li {
+    margin-bottom: 0.65rem;
+    padding-left: 15px;
+    position: relative; }
+    .pg_issue #largeJumptoSection li button {
+      position: absolute;
+      left: 2px;
+      top: 4px; }
+    .pg_issue #largeJumptoSection li .section-jump-link__sublist {
+      margin-top: 0.65rem; }
+
+  .pg_issue #largeJumptoSection .section-jump-link a, .pg_issue #largeJumptoSection .section-jump-link span {
+    padding-left: 0; } }
+.section-jump-link a, .section-jump-link span {
+  line-height: inherit; }
+
+.article-metadata-panel li {
+  line-height: 1.3em !important; }
+
+.article-pdfLink i {
+  color: #2a2a2a; }
+
+.signin-inner-wrap .signin-page-info {
+  margin-bottom: 0; }
+
+.pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget h3 {
+  margin-bottom: 0.75rem; }
+
+.ref-content .citation .citation-links div {
+  margin-right: 2em !important;
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none; }
+
+.info-card-name {
+  font-size: 17px; }
+
+.info-card-search {
+  border-right: none;
+  display: inline-block;
+  line-height: 1em;
+  margin-right: 1em;
+  padding: 0; }
+
+.info-card-search-label {
+  font-size: 14px;
+  margin-top: 1.5em; }
+
+.pg_article .abstract .title, .abstract-response-placeholder .title {
+  font-size: 19px;
+  margin: 0.65rem 0 0.15rem 0; }
+
+.abstract-response-placeholder .title:first-child {
+  margin-top: 0; }
+
+#rssFeeds a {
+  margin-bottom: 0.65rem; }
+
+.useful-links-list li {
+  margin-bottom: 0.65rem; }
+
+.page-column--right .panel-twitter iframe {
+  border: 1px solid #cfd5e4 !important; }
+
+.add-alert-link-wrap {
+  margin-left: 0;
+  margin-right: 0; }
+  .add-alert-link-wrap a {
+    background-color: #2880ba;
+    color: #fff;
+    border-radius: 5px;
+    padding: 7px 10px;
+    line-height: 1em;
+    display: inline-block;
+    cursor: pointer; }
+    .add-alert-link-wrap a:hover {
+      text-decoration: none;
+      background-color: #216ea1; }
+
+.required-wrap .offset-wrap {
+  margin-left: 0; }
+
+.myaccount-tabs-inner-wrap li:last-child {
+  margin-bottom: 0; }
+
+.widget-JobTarget {
+  border: none;
+  font-size: 15px;
+  line-height: 1.3em; }
+  .widget-JobTarget .network-or-parsing-error {
+    padding: 5px; }
+
+.widget-JobTarget .wrapper .jspContainer {
+  width: auto !important; }
+.widget-JobTarget .wrapper .jspPane {
+  width: auto !important; }
+.widget-JobTarget .wrapper .job {
+  width: auto !important; }
+
+.widget-JobTarget .wrapper .header {
+  background-color: #002147;
+  border-bottom: none; }
+
+.widget-JobTarget .wrapper .header a {
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  font-size: 15px;
+  font-weight: bold; }
+
+.widget-JobTarget .wrapper {
+  background-color: #FFF;
+  border: 1px solid #002147; }
+
+.widget-JobTarget .wrapper #jobs {
+  width: auto !important; }
+
+.widget-JobTarget .wrapper .all-jobs {
+  background-color: #002147; }
+  .widget-JobTarget .wrapper .all-jobs a {
+    color: #fff; }
+    .widget-JobTarget .wrapper .all-jobs a:hover {
+      text-decoration: none; }
+
+.comment-body__wrap {
+  font-size: 17px; }
+
+.comments {
+  margin-top: 2.5rem; }
+
+.comment-body__text {
+  padding-top: 0;
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .comment-body__text p {
+    line-height: 1.5em; }
+
+.comment-body__title {
+  font-size: 19px;
+  line-height: 1.36em; }
+
+.comment-body__row {
+  font-size: 14px;
+  line-height: 1.45em;
+  margin: 0.45em 0; }
+
+.comment-body__author, .comment-body__date, .comment-body__submission-date {
+  color: #666; }
+
+.commentAuthorAffiliation.comment-body__author {
+  font-size: 14px;
+  line-height: 1.45em;
+  display: block;
+  margin: 0.45em 0; }
+
+.commentEntry.comment-body__entry {
+  margin: 1.6rem 0;
+  background-color: #EFF2F7;
+  padding: 1em; }
+
+.comment-body__submission-date {
+  color: #757575;
+  font-size: 14px;
+  line-height: 1.45em; }
+
+@media all and (max-width: 1199px) {
+  body.pg_selfserve\/sspage #Sidebar {
+    margin-top: 2.5rem; } }
+
+@media all and (max-width: 1023px) {
+  body.pg_selfserve\/sspage:not([data-sitename='journals']) #Sidebar {
+    margin-top: 2.5rem; } }
+
+@media all and (max-width: 550px) {
+  .related-titles-container {
+    display: block;
+    margin: 0; }
+
+  .related-title-wrap {
+    margin: 0;
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin-bottom: 12px; }
+
+  .related-titles-container .related-title-wrap img {
+    height: 50px !important;
+    width: 40px !important;
+    float: left; }
+
+  .related-title-text {
+    text-align: left;
+    margin-left: 52px;
+    margin-top: 0; }
+
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic.row-related-titles {
+    padding-bottom: 15px; } }
+.pg_index .twitter-feed h3, h3.list-heading {
+  margin-top: 0.4rem !important;
+  margin-bottom: 1.25rem  !important;
+  text-align: center; }
+
+@media (min-width: 550px) {
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:nth-child(odd) > .widget-dynamic-inner-wrap .widget-SelfServeContent .panel-twitter {
+    top: 75px;
+    height: calc(100% - 75px); } }
+@media (min-width: 550px) {
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic:nth-child(even) > .widget-dynamic-inner-wrap .widget-SelfServeContent .panel-twitter {
+    top: 75px;
+    height: calc(100% - 75px); } }
+.related-title-text a {
+  word-wrap: break-word; }
+
+.navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+  -webkit-font-smoothing: auto; }
+
+br + .impact_factors {
+  margin-top: -1em !important; }
+
+.pg_article .contents-title {
+  margin-bottom: 1rem; }
+
+.location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic .widget-SelfServeContent iframe {
+  margin-top: 0; }
+
+.location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic .widget-SelfServeContent .homepage-panel-video {
+  margin-bottom: 20px; }
+
+@media (max-width: 929px) and (min-width: 550px) {
+  .pg_index .location-main-content > .widget-dynamic .widget-dynamic[data-count="4"].row-journal-features:nth-child(odd) > .widget-dynamic-inner-wrap .widget:nth-child(2) {
+    border-right: 1px solid #cfd5e4; } }
+.pg_index .widget-SelfServeContent p {
+  line-height: 1.55em; }
+
+.pg_index .widget-SelfServeContent li {
+  line-height: 1.55em;
+  margin-bottom: 0.5em; }
+  .pg_index .widget-SelfServeContent li:last-child {
+    margin-bottom: 0; }
+
+.pg_index .widget-SelfServeContent ol {
+  padding-left: 1.75rem;
+  list-style-type: decimal; }
+
+.widget-dynamic-entry {
+  font-size: 15px;
+  line-height: 1.55em; }
+
+@media (min-width: 1100px) {
+  .row-hero-panel .widget-SelfServeContent:first-child p {
+    line-height: 1.55em; }
+
+  .row-hero-panel .widget-dynamic-inner-wrap .widget:not(:first-child) p {
+    line-height: 1.55em; } }
+.pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget h3, .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget #getCitation .modal-title, #getCitation .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic > .widget-dynamic-inner-wrap .widget .modal-title {
+  line-height: 1.25em; }
+
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) .widget-dynamic-inner-wrap > .widget:nth-of-type(2) {
+  line-height: 1.55em; }
+
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:first-of-type .article-issue-info .volume, .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:first-of-type .article-issue-info .issue, .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:first-of-type .article-issue-info .ii-pub-date {
+  line-height: 1.55em; }
+
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) .widget-dynamic-inner-wrap > .widget:nth-of-type(2) {
+  line-height: 1.55em; }
+
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) .widget-dynamic-inner-wrap > .widget:nth-of-type(2) p {
+  line-height: 1.55em; }
+
+@media (min-width: 550px) {
+  .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:first-of-type .article-issue-img {
+    margin: 0 0 7px 0; } }
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) strong a {
+  font-weight: normal; }
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) a strong {
+  font-weight: normal; }
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features .widget-dynamic-inner-wrap > div.widget:nth-of-type(2) h4 {
+  font-size: 15px !important;
+  line-height: 1.55em !important;
+  margin: 0 !important; }
+
+sup {
+  font-weight: normal;
+  vertical-align: baseline;
+  margin: 0;
+  font-size: 0.75em; }
+
+.related-title-text {
+  line-height: 1.3em;
+  margin-top: 7px; }
+
+@media (min-width: 550px) {
+  .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(3) {
+    padding-right: 0; } }
+.navbar-menu .site-menu-item ul li:hover, .navbar-menu .mobile-menu ul li:hover {
+  background-color: #EFF2F7; }
+
+.sri-title:hover {
+  text-decoration: none; }
+
+@media (max-width: 830px) and (min-width: 550px) {
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"] > .widget-dynamic-inner-wrap {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"] > .widget-dynamic-inner-wrap > .widget {
+      width: calc(50% - 10px) !important;
+      flex: 0 auto;
+      margin-bottom: 25px;
+      margin-right: 0 !important; }
+    .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"] > .widget-dynamic-inner-wrap > .widget:nth-child(3) {
+      margin: 0 auto !important;
+      margin-bottom: 0 !important; }
+
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"]:nth-child(odd) > .widget-dynamic-inner-wrap > .widget {
+    width: calc(50%) !important; }
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"]:nth-child(odd) > .widget-dynamic-inner-wrap > .widget:nth-child(2) {
+    border-right: none;
+    padding-right: 0; }
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"]:nth-child(odd) > .widget-dynamic-inner-wrap > .widget.widget-SelectableContentList, .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular, .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic:not(.row-journal-features)[data-count="3"]:nth-child(odd) > .widget-dynamic-inner-wrap .widget.widget-ArticleListNewAndPopular + .widget {
+    width: calc(50% - 10px) !important;
+    border-right: 1px solid #cfd5e4; } }
+@media (max-width: 930px) {
+  .journal-footer-colophon li {
+    display: inline;
+    margin: 0 2rem 0 0; }
+
+  .journal-footer-menu {
+    margin-bottom: 3rem; }
+
+  .journal-footer-colophon {
+    margin-top: 1rem; }
+
+  .oup-footer ul {
+    margin-bottom: 3rem !important; }
+
+  .oup-footer-row-links li {
+    margin: 0 2rem 0 0 !important; }
+
+  .oup-footer .OUP-mission p {
+    max-width: 350px; } }
+/* keep the controls visible during playback */
+#audioOnly .vjs-control-bar {
+  transform: none; }
+
+/* remove the background from the big play button */
+.video-js.vjs-mouse .vjs-big-play-button {
+  background: none; }
+
+.brightcovePodcast {
+  width: 100%;
+  height: 40px;
+  max-width: 500px; }
+
+.sr-list .sri-supplements {
+  margin: .65rem 0; }
+
+@media all and (min-width: 930px) {
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic[data-count="4"]:nth-child(odd) .widget-SelfServeContent .homepage-panel-video {
+    padding-bottom: calc(56.25% - 25px); } }
+@media all and (min-width: 831px) {
+  .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap .widget-dynamic[data-count="3"]:nth-child(odd) .widget-SelfServeContent .homepage-panel-video {
+    padding-bottom: calc(56.25% - 25px); } }
+.dropdown-panel.dropdown-panel-signin .signin-form {
+  padding: 0; }
+
+@media (min-width: 930px) {
+  .dropdown-panel .login-form__section {
+    padding-left: 15px;
+    padding-right: 15px; } }
+.dropdown-panel-signin .login-form__section.login-form__row--lower {
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.widget-LoginForm .login-form__heading, .unauth-society-row .login-form__heading {
+  margin-bottom: 0.75rem;
+  line-height: 1.2em; }
+
+.society-links-listing:last-child {
+  padding-bottom: 0; }
+
+.society-links-logo img {
+  height: 80px; }
+
+.login-form__row--lower:not(:first-of-type) {
+  margin-top: 0; }
+
+a.logged-in-link {
+  padding-left: 10px;
+  padding-right: 12px;
+  border-width: 4px; }
+  a.logged-in-link:hover {
+    background-color: #EFF2F7; }
+
+.pg_article .article-metadata-standalone-panel > div {
+  padding: 0; }
+
+.question-icon {
+  line-height: 15px;
+  display: inline-block;
+  margin-left: 0.25em;
+  text-align: center;
+  height: 15px;
+  width: 15px;
+  line-height: 15px;
+  display: inline-block;
+  position: relative;
+  top: -8px;
+  font-size: 10px;
+  color: white;
+  vertical-align: baseline;
+  border-radius: 1em;
+  background-color: #006fb7; }
+  .question-icon span {
+    font-size: inherit;
+    font-weight: normal;
+    display: inline;
+    color: #fff;
+    position: static;
+    right: auto;
+    top: auto; }
+
+.pg_signin .master-main, .pg_signin .main, .pg_account\/register .master-main, .pg_account\/register .main, .pg_account\/myaccount .master-main, .pg_account\/myaccount .main {
+  font-size: 17px; }
+
+.pg_signin .unauth-society-row:not(:first-of-type) {
+  margin-top: 0; }
+.pg_signin .registerLink {
+  margin-left: 1em; }
+
+.signin-inner-wrap {
+  margin: 0 auto; }
+
+[class*="pg_account\/"] label {
+  font-size: 17px; }
+[class*="pg_account\/"] h5 {
+  font-size: 24px !important;
+  font-weight: bold;
+  margin-top: 2rem !important; }
+
+@media (min-width: 1024px) {
+  .mainInner {
+    padding: 55px 0; } }
+.register .required-wrap, .forgot-password .required-wrap {
+  margin-bottom: 1em; }
+
+.register .register-form-wrap input[type='checkbox'], .forgot-password .register-form-wrap input[type='checkbox'] {
+  margin-right: 10px; }
+
+.edit-personal-details .required-wrap {
+  margin-bottom: 20px; }
+
+.change-password-wrap .offset-wrap {
+  margin-left: 0; }
+
+@media (max-width: 480px) {
+  .input-wrap {
+    padding: 0; } }
+.email-alerts-wrap .add-alert-link-wrap {
+  margin-left: 0; }
+
+.tablesorter-default .header, .tablesorter-default .tablesorter-header {
+  background-position: 0px 18px; }
+
+.communication-preferences-wrap .description-wrap select {
+  line-height: 1.75em; }
+
+.communication-preferences-wrap .communication-preferences-subject-preheader {
+  margin: 0; }
+
+@media (max-width: 480px) {
+  .edit-personal-details .offset-wrap {
+    padding: 0; }
+
+  .edit-personal-details label {
+    line-height: 1.5em; } }
+.oup-header-menu-item {
+  line-height: 2rem; }
+
+.pg_index .twitter-feed h3 {
+  margin-top: 0.4rem; }
+
+.widget-SelfServeContentNavigationMenu a {
+  color: #2a2a2a; }
+
+.subscriptions-wrap table {
+  width: 100%; }
+
+.password-check-row {
+  position: relative; }
+
+.password-check-label {
+  line-height: 1.2em;
+  margin-left: 25px;
+  margin-bottom: 5px; }
+
+.password-check-icon {
+  font-size: 10px;
+  position: absolute;
+  top: 2px; }
+
+.password-requirements-icon {
+  font-size: 16px;
+  left: 0px;
+  position: absolute; }
+
+.password-check-title {
+  text-align: left;
+  line-height: 1em;
+  padding-left: 25px; }
+
+.password-input-icon, .password-confirm-icon {
+  font-size: 16px;
+  top: 12px; }
+
+.register .signin-link-wrap a {
+  margin-left: 1em; }
+
+@media (min-width: 930px) and (max-width: 1023px) {
+  .dropdown-panel {
+    border: 1px solid #cfd5e4;
+    box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.25); } }
+#forgot-password {
+  max-width: 700px; }
+  #forgot-password .signin-page-info {
+    margin-bottom: 2rem; }
+
+@media (max-width: 549px) {
+  .password-input-check-wrap, .password-confirm-wrap {
+    width: 100%; }
+
+  .password-input-check-wrap {
+    margin-bottom: 0.75rem; } }
+@media (max-width: 555px) {
+  .register .register-form-wrap label, .forgot-password .register-form-wrap label {
+    line-height: 1.2em; } }
+.pg_issue .article-list-resources .al-article-item-wrap:first-of-type {
+  border-top: none;
+  padding-top: 0; }
+
+.pg_issue .article-list-resources .al-article-item-wrap {
+  border-top: 1px solid #cfd5e4;
+  padding-top: 1.65rem; }
+
+.pg_issue #InfoColumn .issue-info-ISSN, .pg_issue #InfoColumn .issue-info-EISSN {
+  font-size: 15px; }
+
+.pg_issue .issue-browse__supplement-list li i {
+  font-size: 16px; }
+
+.pg_issue .issue-browse__supplement-list li {
+  margin-right: 2em; }
+
+.table-overflow {
+  margin-bottom: 0.5em; }
+
+.table-overflow:last-child {
+  margin-bottom: 0.5em; }
+
+.pg_article #InfoColumn .content-nav {
+  margin-top: 0px; }
+
+.pg_article .info-widget-wrap > div {
+  margin-bottom: 2rem; }
+
+.pg_article .info-widget-wrap > div:last-child {
+  margin-bottom: 0; }
+
+.pg_article #Toolbar .toolbar-item:blank, .pg_article #Toolbar .toolbar-item:-moz-only-whitespace {
+  display: none; }
+
+.al-article-items {
+  font-size: 17px; }
+
+.pg_articlesbygroup .al-title {
+  margin-bottom: .25rem; }
+
+.pg_articlesbygroup .al-article-box {
+  margin-bottom: 0px;
+  padding: 1.65rem 0; }
+
+.close-reveal-modal i {
+  font-weight: bold;
+  color: #2a2a2a; }
+
+.navbar-menu .site-menu-item ul li, .navbar-menu .mobile-menu ul li {
+  border-width: 4px; }
+  .navbar-menu .site-menu-item ul li:hover, .navbar-menu .mobile-menu ul li:hover {
+    border-width: 4px; }
+
+.pg_article #Toolbar .toolbar-item > ul li {
+  border-width: 4px; }
+  .pg_article #Toolbar .toolbar-item > ul li:hover {
+    border-width: 4px; }
+
+.login-form__link-wrap {
+  margin-bottom: 0.65rem; }
+  .login-form__link-wrap:last-child {
+    margin-bottom: 0; }
+
+.dropdown-panel-form .error {
+  background: #fafafa;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  color: #e70000;
+  font-size: 15px;
+  line-height: 1.35em !important;
+  font-weight: normal;
+  padding: 15px;
+  border-bottom: 1px solid #cfd5e4; }
+
+@media all and (min-width: 930px) {
+  .journal-header .center-inner-row {
+    height: 110px; } }
+.pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(4) {
+  min-height: 0; }
+
+.widget-instance-Home_MainContentB0Home_Row1_Ad iframe {
+  height: 250px; }
+
+.widget-instance-HeaderAd iframe, .widget-instance-FooterAd iframe {
+  width: 728px; }
+
+@media (max-width: 767px) {
+  .widget-instance-HeaderAd iframe, .widget-instance-FooterAd iframe {
+    width: 320px; }
+
+  #adBlockHeader[data-google-query-id] {
+    padding-left: 0;
+    padding-right: 0; } }
+.widget-instance-IssueAdMainBodyTop iframe[height="250"], .widget-instance-SearchAdMainBodyTop iframe[height="250"], .widget-instance-IssueAdMainBodyBottom iframe[height="250"], .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="250"], .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="250"], .widget-instance-SelfServeTopSidebar iframe[height="250"], .widget-instance-SelfServeBottomSidebar iframe[height="250"], .widget-instance-ArticlePageTopSidebar iframe[height="250"], .widget-instance-ArticlePageTopMainBodyBottom iframe[height="250"] {
+  height: 250px; }
+.widget-instance-IssueAdMainBodyTop iframe[height="600"], .widget-instance-SearchAdMainBodyTop iframe[height="600"], .widget-instance-IssueAdMainBodyBottom iframe[height="600"], .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="600"], .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="600"], .widget-instance-SelfServeTopSidebar iframe[height="600"], .widget-instance-SelfServeBottomSidebar iframe[height="600"], .widget-instance-ArticlePageTopSidebar iframe[height="600"], .widget-instance-ArticlePageTopMainBodyBottom iframe[height="600"] {
+  height: 600px; }
+
+body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-HeaderAd iframe, body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-FooterAd iframe, body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-HeaderAd iframe, body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-FooterAd iframe, body[data-sitename="openforuminfectiousdiseases"] .widget-instance-HeaderAd iframe, body[data-sitename="openforuminfectiousdiseases"] .widget-instance-FooterAd iframe, body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-HeaderAd iframe, body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-FooterAd iframe {
+  width: 760px; }
+body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-Home_MainContentB0Home_Row1_Ad iframe, body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-Home_MainContentB0Home_Row1_Ad iframe, body[data-sitename="openforuminfectiousdiseases"] .widget-instance-Home_MainContentB0Home_Row1_Ad iframe, body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-Home_MainContentB0Home_Row1_Ad iframe {
+  height: 270px; }
+body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="250"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="250"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="250"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-IssueAdMainBodyTop iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SearchAdMainBodyTop iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-IssueAdMainBodyBottom iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SelfServeTopSidebar iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SelfServeBottomSidebar iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-ArticlePageTopSidebar iframe[height="250"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="250"] {
+  height: 270px; }
+body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="600"], body[data-sitename="clinicalinfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="600"], body[data-sitename="thejournalofinfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-IssueAdMainBodyTop iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SearchAdMainBodyTop iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-IssueAdMainBodyBottom iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SelfServeTopSidebar iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-SelfServeBottomSidebar iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-ArticlePageTopSidebar iframe[height="600"], body[data-sitename="openforuminfectiousdiseases"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-IssueAdMainBodyTop iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SearchAdMainBodyTop iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-IssueAdMainBodyBottom iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarTop iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-OUP_AdvanceAccessPage_AdSidebarBottom iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SelfServeTopSidebar iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-SelfServeBottomSidebar iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-ArticlePageTopSidebar iframe[height="600"], body[data-sitename="journalofthepediatricinfectiousdiseasessociety"] .widget-instance-ArticlePageTopMainBodyBottom iframe[height="600"] {
+  height: 620px; }
+
+.pg_article #ContentColumn .abstract {
+  padding-top: 1.25rem; }
+
+.pg_article #ContentColumn h2.abstract-title + .abstract {
+  padding-top: 7px; }
+
+.userAlertSignUp .addUserAlert {
+  margin-top: 1rem; }
+
+.pg_issue .article-list-resources .section-container h4 {
+  font-size: 19px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  padding-bottom: 4px; }
+
+.pg_issue #ArticleList h4[data-level="2"], .pg_issue .article-list-resources .section-container h4 {
+  margin-top: 2.75rem; }
+
+.pg_issue #ArticleList h4[data-level="2"] + div {
+  margin-top: 1.35rem; }
+
+.pg_issue .select-wrap .selectDropdown, .pg_issue .select-wrap .issue-browse-select, .sort-order-select {
+  border-color: #bbc1d2;
+  background-color: #FFF; }
+
+.pg_article .access-state-logos, .al-article-categories, .sri-type-oup-series {
+  font-size: 14px;
+  line-height: 1.35em;
+  margin-bottom: 0.2rem; }
+
+.pg_issue .article-list-resources .section-container h4 {
+  margin-bottom: 1.35rem; }
+
+.pg_issue .article-list-resources .al-article-list-group .al-article-item-wrap {
+  padding-top: 1.35rem; }
+
+.pg_issue .article-list-resources .al-article-item-wrap {
+  margin-bottom: 1.35rem; }
+
+.pg_issue #ContentColumn h5.item-title {
+  font-size: 20px;
+  line-height: 1.37em;
+  margin-bottom: 0.1rem; }
+
+.pg_issue .article-list-resources .al-article-items {
+  line-height: 1.45em; }
+
+.pg_issue .image-synopsis-wrap .al-article-synopsis p {
+  line-height: 1.45em; }
+
+.issue-browse-volume-link {
+  font-size: 15px; }
+
+.pg_issue .image-synopsis-wrap .issue-featured-image a img {
+  display: block; }
+
+.pg_issue .article-list-resources .al-authors-list {
+  margin-bottom: 11px; }
+
+.pg_issue .article-list-resources .al-other-resource-links {
+  margin: 11px 0; }
+
+.pg_issue #InfoColumn .issue-info-pub {
+  margin-bottom: 0; }
+
+.pg_issue #InfoColumn .issue-info-date {
+  font-size: 15px;
+  line-height: 1.5em; }
+
+.pg_issue #InfoColumn .info-widget-wrap > div:last-child {
+  margin-bottom: 0; }
+
+.pg_issue #InfoColumn .info-widget-wrap, #scrollMenu {
+  margin-bottom: 1.5rem; }
+
+.pg_issue #scrollMenu + br {
+  display: none; }
+
+#InfoColumn .fb-featured-image {
+  margin-bottom: 5px;
+  width: auto; }
+
+.pg_article #ContentColumn .article-metadata-panel, .pg_article #ContentColumn .article-metadata-standalone-panel, .abstract-response-placeholder, .pg_article #ContentColumn .abstract-title, .pg_article #ContentColumn .abstract {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem; }
+
+.pg_article #ContentColumn .article-metadata-panel, .pg_article #ContentColumn .article-metadata-standalone-panel {
+  padding-bottom: 1.25rem; }
+
+.abstract p {
+  font-size: 15px; }
+
+.sr-list, .sr-list .snippet {
+  line-height: 1.45em; }
+
+.sr-list {
+  padding-top: 1.8rem;
+  padding-bottom: 1.55rem; }
+
+.date-group input[type="text"] {
+  font-size: 15px !important;
+  height: 30px; }
+
+.al-type {
+  line-height: 1.65em; }
+
+.querybuilder-instance {
+  margin-bottom: 10px; }
+
+.pagination .al-nav-previous {
+  margin-right: 0.75em; }
+
+.pagination .al-nav-next {
+  margin-left: 0.75em; }
+
+.sf-group-header {
+  margin-bottom: 0.55rem; }
+
+.navbar-search {
+  padding-right: 0; }
+
+.navbar-search-filter {
+  background-color: #f3f3f3;
+  border-radius: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  padding: 0 23px 0 5px;
+  font-size: 12px;
+  height: 32px;
+  line-height: 32px;
+  display: block; }
+
+.navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+  padding: 0 0 0 5px; }
+
+.navbar-search-submit, .navbar-search .mobile-search-submit, .navbar-search button {
+  background-color: #FFF;
+  height: 32px;
+  top: auto; }
+
+.dropdown-panel.mobile-search-dropdown .mobile-search-inner-wrap {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+@media all and (max-width: 549px) {
+  .navbar-search {
+    border: none;
+    background: none; }
+
+  .navbar-search-filter {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 1px solid #cfd5e4;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    background-color: #FFF; }
+
+  .navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+    padding: 0 5px;
+    width: calc(100% - 30px);
+    border: 1px solid #cfd5e4;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px; }
+
+  .navbar-search-submit, .navbar-search .mobile-search-submit, .navbar-search button {
+    background-color: #FFF;
+    border: 1px solid #cfd5e4;
+    border-left: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px; } }
+@media all and (min-width: 550px) {
+  .navbar-search-filter {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-right: 1px solid #d3d3d3;
+    vertical-align: top;
+    float: left; }
+
+  .navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+    width: calc(100% - 160px);
+    float: left;
+    vertical-align: top; } }
+@media all and (min-width: 931px) {
+  .navbar-search-filter {
+    width: 90px; }
+
+  .navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+    width: calc(100% - 90px); } }
+@media all and (min-width: 1024px) {
+  .navbar-search {
+    width: 300px; }
+
+  .navbar-search-filter {
+    width: 115px; }
+
+  .navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+    width: calc(100% - 115px); } }
+@media all and (min-width: 1100px) {
+  .navbar-search {
+    width: 350px; }
+
+  .navbar-search-filter {
+    width: 130px; }
+
+  .navbar-search-input, .navbar-search .mobile-search-input, .navbar-search input[type="text"] {
+    width: calc(100% - 130px); } }
+[class*="pg_account\/"] .navbar-search select {
+  width: 130px; }
+  @media all and (min-width: 931px) {
+    [class*="pg_account\/"] .navbar-search select {
+      width: 90px; } }
+  @media all and (min-width: 1024px) {
+    [class*="pg_account\/"] .navbar-search select {
+      width: 115px; } }
+  @media all and (min-width: 1100px) {
+    [class*="pg_account\/"] .navbar-search select {
+      width: 130px; } }
+
+.pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search .navbar-search-filter {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border: 1px solid #d3d3d3; }
+.pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search .navbar-search-input, .pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search .navbar-search .mobile-search-input, .pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search .navbar-search input[type="text"] {
+  width: calc(100% - 160px);
+  border-left: none;
+  border-right: none;
+  border-radius: 0; }
+.pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search .navbar-search-submit {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px; }
+
+.sri-figure {
+  margin-right: 0;
+  margin-top: 5px; }
+
+@media all and (max-width: 930px) {
+  .pg_issue #InfoColumn .issue-link--prev, .pg_issue #InfoColumn .issue-link--next {
+    display: inline-block;
+    margin-bottom: 2rem; } }
+.pg_issue #InfoColumn .issue-link--prev, .pg_issue #InfoColumn .issue-link--next {
+  padding: 0px;
+  font-size: 15px; }
+
+.pg_issue #InfoColumn .issue-link--prev {
+  margin-right: 1.5rem; }
+
+@media (max-width: 480px) {
+  #InfoColumn .fb-featured-image {
+    margin-left: 0px; } }
+select {
+  padding-right: 22px; }
+
+.querybuilder-wrap .error-message {
+  margin-bottom: 0; }
+
+.article-body .copyright, .article-body .copyright-statement {
+  text-align: left;
+  font-size: 15px; }
+
+.pg_index .widget-dynamic__header h3 {
+  margin-bottom: 0;
+  font-size: 26px; }
+
+.sr-list {
+  padding-bottom: 1.85rem; }
+
+.sr-list > *:last-child {
+  margin-bottom: 0; }
+
+.resource-link .abstract-link {
+  line-height: 1.5em; }
+
+.al-author-name .linked-name:after, .al-author-name .al-author-by:after {
+  content: ','; }
+
+.info-card-author {
+  line-height: 1.45em; }
+
+.info-card-name {
+  line-height: 1.35em; }
+
+.al-author-info-wrap .name-role-wrap {
+  margin-bottom: 5px; }
+
+.info-card-search-label {
+  margin-top: 1em; }
+
+.al-author-info-wrap {
+  border: 1px solid #b4baca;
+  border-radius: 3px;
+  padding: 12px 9px;
+  box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.25); }
+
+@media all and (min-width: 930px) {
+  .al-author-info-wrap {
+    width: 320px; } }
+.solrSearchSaveWidget {
+  font-size: 17px; }
+
+.pg_issue .page-column h2 {
+  line-height: 1.275em;
+  margin-bottom: 2em;
+  font-size: 25px; }
+
+.pg_article .article-title-main {
+  font-size: 24px !important;
+  line-height: 1.37 !important;
+  margin-bottom: .1rem; }
+
+.pg_article .article-top-widget .al-authors-list {
+  margin: 0 0 1rem 0; }
+
+.pg_article .article-top-widget {
+  margin-bottom: 1.25rem; }
+
+.pg_article .toolbar-wrap {
+  margin-bottom: 0.5rem; }
+
+.master-main {
+  padding-top: 50px; }
+
+.pg_article .toolbar-wrap.fixed {
+  background-color: #fff; }
+
+.pg_article .toolbar-wrap.fixed .toolbar-inner-wrap .toolbar-search .navbar .center-inner-row .navbar-search {
+  background: #fff; }
+
+.taxonomy-tree-wrap .taxonomy-child-list.taxonomy-lvl-0 {
+  padding-top: 0; }
+
+.taxonomy-tree-wrap .taxonomy-child-list {
+  padding-left: 16px; }
+
+.taxonomy-tree-wrap .taxonomy-label-wrap {
+  padding-left: 16px; }
+
+.taxonomy-tree-wrap .taxonomy-parent-arrow {
+  top: 6px; }
+
+.taxonomy-tree-wrap .taxonomy-label {
+  line-height: 1.24em; }
+
+.pg_article .pdf-notice .PdfOnlyLink {
+  margin-bottom: .5em;
+  margin-top: 0; }
+
+.pg_article .pdf-notice {
+  margin: 2.5em 0; }
+
+.email-alerts-wrap .email-alerts-content-row div {
+  line-height: 1.3; }
+
+.email-alerts-wrap .email-alerts-content-row {
+  padding-top: 0.85em;
+  padding-bottom: 0.85em; }
+
+.email-alert-type {
+  font-size: 15px; }
+
+.issue-alerts-table td {
+  padding: 15px; }
+
+.advance-articles-alerts-table td {
+  padding: 9px 15px; }
+
+.article-activity-alerts-table td {
+  vertical-align: top; }
+
+.saved-searches-wrap table td {
+  vertical-align: top; }
+
+.dropdown-panel-institution .dropdown-menu .dropdown-institution-item {
+  padding: 0; }
+  .dropdown-panel-institution .dropdown-menu .dropdown-institution-item a {
+    display: block;
+    padding: 5px 12px;
+    background-color: #fff;
+    border-left: 3px solid #fff;
+    font-size: 15px; }
+    .dropdown-panel-institution .dropdown-menu .dropdown-institution-item a:hover {
+      background-color: #EFF2F7;
+      border-color: #cfd5e4;
+      text-decoration: none; }
+
+.dropdown-panel-institution {
+  padding-top: 10px; }
+
+.dropdown-panel-institution .login-signout-wrap {
+  padding-top: 10px;
+  margin-top: 10px; }
+
+.dropdown-panel-institution .dropdown-menu .dropdown-institution-item img {
+  display: block;
+  margin: 0 auto; }
+
+.querybuilder-filter-dropdown li {
+  border-left: 3px solid #fff;
+  font-size: 15px;
+  padding: 6px 12px;
+  line-height: 1.3em; }
+
+.querybuilder-filter-dropdown li:hover {
+  background-color: #EFF2F7;
+  border-color: #cfd5e4; }
+
+.sri-figure.issue-cover {
+  margin-bottom: 0px;
+  max-height: none; }
+
+.sr-header {
+  line-height: 1em; }
+
+.sr-facet {
+  font-size: 17px;
+  line-height: 1em;
+  margin-bottom: 0.4em;
+  /*I don't like doing this on inline-block elements, but there is no consistent container for facets so forced to put the margin here*/
+  margin-right: 1.5em; }
+
+.sr-facet .close {
+  position: relative;
+  top: 1px;
+  font-size: 16px; }
+
+.sf-facet a:hover {
+  text-decoration: none; }
+
+.journal-description-container {
+  display: block !important;
+  float: none !important; }
+
+.taxonomy-tree-wrap .selected, .taxonomy-tree-wrap .queryitem {
+  font-weight: normal; }
+
+.collapsible-facet .sf-facet-list .selected {
+  font-weight: normal; }
+
+.taxonomy-tree-wrap .taxonomy-label:hover {
+  text-decoration: none; }
+
+@media (min-width: 930px) {
+  .pg_index .location-main-content > .widget-dynamic > .widget-dynamic-inner-wrap > .widget-dynamic {
+    padding: 55px 0; } }
+.navbar-menu .site-menu-item ul {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: 0 0 6px 0 rgba(50, 50, 50, 0.2); }
+
+.dropdown-panel {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0; }
+
+.querybuilder-filter-dropdown {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  box-shadow: 0 0 6px 0 rgba(50, 50, 50, 0.2); }
+
+.querybuilder-filter-label:focus {
+  outline: none; }
+
+.pg_articlesbygroup .al-title {
+  font-size: 20px;
+  line-height: 1.37em;
+  margin-bottom: 0.1rem; }
+  .pg_articlesbygroup .al-title i {
+    font-size: 18px; }
+
+.pg_articlesbygroup .al-authors-list {
+  margin-bottom: 11px; }
+
+.pg_articlesbygroup .al-other-resource-links {
+  margin-top: 11px; }
+
+.pg_articlesbygroup .al-other-resource-links li {
+  vertical-align: baseline; }
+
+.pg_articlesbygroup .al-article-box {
+  padding: 1.35rem 0; }
+
+.resource-link {
+  vertical-align: baseline; }
+
+.articles-by-group-header h1 {
+  margin-bottom: 1.2rem; }
+
+span.error {
+  font-size: 17px;
+  font-style: normal;
+  background: #fff;
+  color: #2a2a2a; }
+
+.sr-alert-noresults .error {
+  margin: 1.5rem 0;
+  padding: 0.65em 0.5em;
+  border: 1px solid #cfd5e4; }
+
+.date-label-to span {
+  display: inline-block;
+  width: 2.15em; }
+
+.date-group label {
+  margin-bottom: 0; }
+
+.supplemental-link-wrap > div {
+  float: none;
+  margin-right: 1.2em; }
+
+.resource-link.resource-abstract {
+  margin-right: 1.2em; }
+
+.pg_article #InfoColumn .article-issue-info .issue-historical-title-wrap {
+  font-size: 15px;
+  line-height: 1.5em; }
+
+.pg_article #InfoColumn .article-issue-info .issue-old-title-label, .pg_article #InfoColumn .article-issue-info .issue-old-title-journalName {
+  font-size: inherit;
+  line-height: inherit; }
+
+.pg_article #InfoColumn .fb-featured-image {
+  width: auto;
+  margin-bottom: 4px; }
+
+.pg_article #InfoColumn .article-issue-info .volume, .pg_article #InfoColumn .article-issue-info .issue {
+  font-weight: normal; }
+
+.articleListNewAndPopularCombinedView, .article-cited-title, .relatedArticleIn-title, .pg_article .contents-title, .article-widget-head, .seeAlso-title, .spRssFeedsTitle {
+  margin-bottom: 0.85rem; }
+
+.widget-dynamic-entry, .widget-ArticleCitedBy .article-cited-link-wrap, .pg_article #InfoColumn .jumplink-list li, .widget-related-content, .widget-RelatedPubMed .inner-content .article-title, .widget-SeeAlso .seeAlso-articleLinks > li {
+  font-size: 15px;
+  line-height: 1.5em; }
+
+.articleListNewPopContent .widget-dynamic-entry, .widget-ArticleCitedBy .article-cited-link-wrap, .relatedArticleIn-content li, .pg_article #InfoColumn .jumplink-list li, .widget-related-content .article-title, .widget-RelatedPubMed .inner-content-wrap {
+  margin-bottom: 0.85rem; }
+  .articleListNewPopContent .widget-dynamic-entry:last-child, .widget-ArticleCitedBy .article-cited-link-wrap:last-child, .relatedArticleIn-content li:last-child, .pg_article #InfoColumn .jumplink-list li:last-child, .widget-related-content .article-title:last-child, .widget-RelatedPubMed .inner-content-wrap:last-child {
+    margin-bottom: 0; }
+
+.pg_article #InfoColumn.mobile .jumplink-list li {
+  margin-bottom: 0; }
+
+.pg_article #InfoColumn .article-issue-info {
+  line-height: 1.75em; }
+
+.pg_article .artmet-altmetric div img {
+  display: block; }
+
+.artmet-condensed-wrap {
+  padding: 5px 0; }
+
+.widget-broaden_society, .widget-broaden_umbrella {
+  transition: background-color 0.3s ease; }
+
+.pg_article #Toolbar .toolbar-item i {
+  margin-right: 3px; }
+
+.pg_article .article-metadata-panel, .pg_article .article-metadata-standalone-panel {
+  line-height: 1.5em; }
+
+.search-results-filter-button {
+  margin-top: 0.75em; }
+
+.sf-facet i {
+  margin-right: 3px; }
+
+.society-links-logo img {
+  width: 100%;
+  max-height: none;
+  height: auto;
+  display: block;
+  margin-bottom: 12px; }
+
+.society-links-listing {
+  padding-bottom: 1.5rem; }
+
+.product {
+  margin: 0.25rem 0; }
+  .product > div {
+    display: inline; }
+
+body.pg_selfserve\/sspage #ContentColumn h3 a {
+  color: #006fb7; }
+
+.journal-footer-colophon a {
+  color: #fff;
+  text-decoration: none; }
+
+.article-body .ref-content .citation {
+  display: table-cell; }
+
+.article-body .ref .label {
+  display: table-cell;
+  padding-right: 0.75rem; }
+
+.fn .footnote-content {
+  padding-left: 0 !important; }
+
+.fn .label {
+  padding-right: 0.75rem; }
+
+.pg_issue .select-wrap .issue-browse-select {
+  max-width: 350px; }
+
+.verse-line {
+  line-height: 1.5em;
+  margin-bottom: 0.25rem; }
+
+.verse-group {
+  margin: 2rem 15px; }
+
+.saved-searches-name {
+  white-space: normal; }
+
+.sans-serif {
+  font-family: "Source Sans Pro", sans-serif !important; }
+
+div.overline {
+  display: inline; }
+
+.dropdown-panel .site-menu-item ul.site-menu-lvl-1 .login-form__shibboleth-link a, .dropdown-panel .site-menu-item ul.site-menu-lvl-1 .society-links-listing a {
+  color: #006fb7; }
+
+@media all and (max-width: 929px) {
+  .dropdown-panel .login-form__row--lower {
+    border-top: none;
+    border-bottom: 1px solid #cfd5e4; }
+
+  .login-form__row--lower:not(:first-of-type) {
+    border-top: none; } }
+@media all and (max-width: 929px) {
+  .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(4) {
+    margin-top: 0; }
+    .pg_index .location-main-content .widget-dynamic-inner-wrap .row-journal-features[data-count="4"] .widget-dynamic-inner-wrap > div.widget:nth-of-type(4) #adBlockMainBodyTop {
+      margin-top: 25px; } }
+@media (max-width: 549px) {
+  .sort-order-select {
+    width: auto; } }
+.article-body ul.def-list {
+  padding-left: 0; }
+
+.article-body ul ul.def-list, .article-body ol ul.def-list {
+  padding-left: 1.3em; }
+
+div[data-widgetname="ArticleFulltext"] > *:first-child:not(.abstract-title):not(.abstract):not(.article-metadata-panel) {
+  margin-top: 2rem; }
+
+.pg_issue .issue-browse-covers-link {
+  margin-right: 0; }
+
+.pg_issue .select-wrap label {
+  margin-right: 3px; }
+
+.pg_issuecovers .issue-cover-list-item {
+  margin-top: 0;
+  font-size: 15px;
+  line-height: 1.4em; }
+  .pg_issuecovers .issue-cover-list-item img {
+    border: 1px solid #cfd5e4; }

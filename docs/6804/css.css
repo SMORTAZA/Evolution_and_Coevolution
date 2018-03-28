@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Merriweather Italic'), local('Merriweather-Italic'), url(https://fonts.gstatic.com/s/merriweather/v19/So5lHxHT37p2SS4-t60SlL52ooqJRs02xO3mONBoqeI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Merriweather Bold Italic'), local('Merriweather-BoldItalic'), url(https://fonts.gstatic.com/s/merriweather/v19/EYh7Vl4ywhowqULgRdYwILz7bF_NE717IFsea40dLmU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Merriweather Light'), local('Merriweather-Light'), url(https://fonts.gstatic.com/s/merriweather/v19/ZvcMqxEwPfh2qDWBPxn6nmB7wJ9CoPCp9n30ZBThZ1I.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v19/RFda8w1V0eDZheqfcyQ4EKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Merriweather Bold'), local('Merriweather-Bold'), url(https://fonts.gstatic.com/s/merriweather/v19/ZvcMqxEwPfh2qDWBPxn6nhAPw1J91axKNXP_-QX9CC8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/M2Jd71oPJhLKp0zdtTvoM_bce-VcyLJMRR1FC9qWbU8.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold Italic'), local('SourceSansPro-BoldItalic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/fpTVHK8qsXbIeTHTrnQH6PgYMAt3u4NmhhzLLLPJ5qH3rGVtsTkPsbDajuO5ueQw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Source Sans Pro Bold'), local('SourceSansPro-Bold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/toadOcfmlt9b38dHJxOBGIqjGYJUyOXcBwUQbRaNH6c.woff) format('woff');
+}

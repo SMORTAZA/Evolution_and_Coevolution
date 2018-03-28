@@ -1,0 +1,70 @@
+###############################################
+#Phylogénie des espèces étudiées avec l'ARN16S#
+###############################################
+
+- fichier contenant l'ARN 16S de Cre et servira de query: /data/mortaza/ARN16S/Chre_16S.fasta
+- base de données = ens des genomes et des transcriptome
+- copier query dans lucifer (ds rep rna16s )
+scp mortaza@172.26.16.29:/home/mortaza/Documents/16S_PhylogenyTree/Chre_16S.fasta .
+- a chaque fois, modif du pbs file
+- genome ok - transcriptome en cours
+
+
+- commandes.sh ds mortaza@athena (ordi Ingrid)
+prog=/home/lafontaine/Softs/ncbi-blast-2.6.0+/bin/blastp
+req=/data/lafontaine/Recherche/OPR/blastdb/OPR_regular.fasta
+datab=/data/lafontaine/Recherche/OPR/blastdb/OPR_regular.fasta
+$prog -query $req -db $datab -outfmt 6 qseqid qseq qstart qend sseqid stitle sseq sstart send sstrand sframe length pident nident ppos gaps gapopen evalue bitscore qcovs qcovhsp qcovus
+
+- creation d'une bd jeu test
+/home/lafontaine/Softs/ncbi-blast-2.6.0+/bin/makeblastdb -in header_test.fasta -dbtype 'prot' -parse_seqids
+
+- enlever le stitle
+
+qseqid qseq qstart qend sseqid sseq sstart send sstrand sframe length pident nident ppos gaps gapopen evalue bitscore qcovs qcovhsp qcovus
+
+- 2 nvx genomes + 4 nvx transcriptomes ds rep /workdir/ibpc_team/lafontaine_team/shared/databases/BlastDB/-
+
+- 3 nvx genomes chloroplastiques
+- pr faire le makeblastdb, utiliser le blast+ d'Ingrid
+mortaza@athena:~$ scp -r mortaza@172.26.16.29:/home/mortaza/Documents/16S_PhylogenyTree/New_genomes .
+mortaza@athena:~/New_genomes$ /home/lafontaine/Softs/ncbi-blast-2.6.0+/bin/makeblastdb -in Chlorella_variabilis_plastid_complete_genome.fasta -dbtype 'nucl' -parse_seqids
+mortaza@six:~/Documents/16S_PhylogenyTree$ scp -r mortaza@172.26.16.220:/home/mortaza/New_genomes .
+
+- NCBI nr avec le nom complet des especes : 
+- enregistrement du meilleur resultat sous format (hit table csv)
+- header à ajouter
+query id, subject ids, query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score 
+
+
+- traitement au cas par cas
+- 1°) blast_analysis.py
+- 2°) 
+mortaza@six:/data/mortaza/Lucifer/rna16s/transcriptomes_16S/qcov$ awk '{print $5,$7,$8,$17,$22}' T_16s_vs_MMETSP1180.nt.fa.blastn.csv.qcov
+sseqid sstart send evalue qcov
+CAMNT_0007085561 1 785 0.0 52.5780189959
+CAMNT_0007085561 1069 1571 8.41e-130 33.5820895522
+CAMNT_0007085561 840 1014 7.08e-71 11.6689280868
+CAMNT_0007087355 946 20 1.05e-153 61.4654002714
+CAMNT_0007105417 511 120 2.08e-31 24.8303934871
+CAMNT_0007105417 58 1 2.13e-16 3.86702849389
+--> mettre ens les 3 fragments de CAMNT_0007085561 ==> de 1 
+
+- dans un fichier excel, copier-coller les deux premieres colonnes de database.csv et completer avec le vrai nom des especes
+
+-seaview
+
+- Ajout d'un nouveau génome : Tetrabaena socialis
+mortaza@athena:~/New_genomes$ /home/lafontaine/Softs/ncbi-blast-2.6.0+/bin/makeblastdb -in PGGS01.1.fsa_nt -dbtype 'nucl' -parse_seqids
+...
+- Ajout dans la base de données
+cat ncbi_qcov_1file.csv /data/mortaza/Lucifer/rna16s/database/database.csv >> /data/mortaza/Lucifer/rna16s/database/complete.database.csv
+
+
+##################
+#Ecriture de code#
+##################
+
+/workdir/ibpc_team/lafontaine_team/mortaza/ingrid2shogofa/rna16s/new_genomes
+
+genome_list = glob.glob("/workdir/ibpc_team/lafontaine_team/mortaza/ingrid2shogofa/rna16s/new_genomes/*.fasta")
