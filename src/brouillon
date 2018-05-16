@@ -1,0 +1,119 @@
+Vcarteri ftsH psbC 52529 55541 3012 +
+Vcarteri trnL ccsA 348249 353741 5492 +
+Vcarteri ccsA psaB 355078 367633 12555 +
+Vcarteri trnG atpA 382227 385269 3042 +
+Vcarteri orf612 psbI 390161 395838 5677 +
+Vcarteri atpB orf608 4802 1754 -3048 -
+Vcarteri petD petA 97537 101436 3899 -
+Vcarteri petG psbL 316585 318860 2275 -
+Dsalina trnW atpA 81572 83203 1631 +
+Dsalina orf277 psbI 85347 87252 1905 +
+Dsalina rps19 atpB 96575 97701 1126 +
+Dsalina orf374 atpB 100405 105597 5192 +
+Dsalina ftsH psbC 117787 119192 1405 +
+Dsalina rps11 psaB 150651 152245 1594 +
+Dsalina orf121 ccsA 153897 156472 2575 +
+Dsalina psbL petG 232005 233491 1486 +
+Dsalina petD petA 18196 19438 1242 -
+Tsocialis rpl20 psbC 93943 97312 3369 +
+Tsocialis petA petD 131423 133976 2553 +
+Tsocialis psbL petG 372497 376891 4394 +
+Tsocialis atpB ycf1 39223 42123 2900 -
+Tsocialis ccsA trnL(taa) 252842 255925 3083 -
+Tsocialis psbI atpA 305274 307452 2178 -
+Tsocialis atpA trnG(tcc) 308978 311925 2947 -
+Tsocialis psaB trnR(acg) 319881 323341 3460 -
+Gpectorale ftsH psbC 93428 94591 1163 +
+Gpectorale petA petD 113030 114109 1079 +
+Gpectorale psaB orf 19833 16908 -2925 -
+Gpectorale petG psbL 41008 42199 1191 -
+Gpectorale atpB ycf1 62130 63365 1235 -
+Gpectorale ccsA trnL 178574 179373 799 -
+Gpectorale psbI atpA 208241 209202 961 -
+Gpectorale atpA trnG 210728 211265 537 -
+Cleiostraca petA petD 1209 1995 786 +
+Cleiostraca ycf12 psaB 19376 20282 906 +
+Cleiostraca psaB ccsA 22489 22916 427 +
+Cleiostraca petG psbL 65268 66354 1086 -
+Cleiostraca psbC ftsH 111626 113003 1377 -
+Cleiostraca atpB orf699 125237 125816 579 -
+Cleiostraca psbI atpA 132144 132333 189 -
+Cleiostraca atpA trnW 133850 135254 1404 -
+Capplanata trnW(cca) atpA 161887 162985 1098 +
+Capplanata atpA psbI 165292 165427 135 +
+Capplanata rps19 atpB 172568 173625 1057 +
+Capplanata ftsH psbC 187359 188693 1334 +
+Capplanata ccsA psaB 58576 59443 867 -
+Capplanata psaB orf617 64297 61542 -2755 -
+Capplanata petG psbL 80028 80847 819 -
+Capplanata petD petA 119932 120747 815 -
+::::::::::::::
+transcriptome_intergenic_regions.csv
+::::::::::::::
+species contig cds start end strand
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030442403 petD 1 1705 +
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030441839 petG 1 148 +
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030458815 psbC 1 29 +
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030457981 atpB 1 205 +
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030459237 atpA 1498 1512 -
+Dunaliella-tertiolecta-CCMP1320 CAMNT_0030459231 psaB 625 626 -
+MMETSP1391 CAMNT_0049572399 petD 1 650 +
+MMETSP1391 CAMNT_0049567933 atpA 1 275 +
+MMETSP1391 CAMNT_0049564739 psaB 1 15 +
+MMETSP1391 CAMNT_0049549427 atpB 1 120 +
+MMETSP1392 CAMNT_0049593199 petD 1 96 +
+MMETSP1392 CAMNT_0049575191 atpA 2078 2487 -
+MMETSP1392 CAMNT_0049615191 psaB 1 490 +
+MMETSP1392 CAMNT_0049585573 psbC 1054 1103 -
+MMETSP1392 CAMNT_0049573339 atpB 2134 2350 -
+Scenedesmus_obliquus_6623EST gi|106870258|gb|EC188635.1| atpB 1 166 +
+Scenedesmus_obliquus_6623EST gi|106869587|gb|EC187964.1| atpA 1 2 +
+GEEU01 GEEU01086318.1 petD 260 391 -
+GEEU01 GEEU01049173.1 petG 1 1997 +
+GEEU01 GEEU01048437.1 psbC 1 1429 +
+GEEU01 GEEU01072256.1 psbI 1 51 +
+GEEU01 GEEU01024931.1 ccsA 1 14 +
+GEEU01 GEEU01082110.1 atpB 1528 1950 -
+GEEU01 GEEU01089539.1 atpA 1 107 +
+GEEU01 GEEU01055154.1 psaB 1 144 +
+MMETSP1128 CAMNT_0049009865 atpB 1 205 +
+MMETSP1128 CAMNT_0049009231 atpA 1 243 +
+Polytomella_parva_5063EST 110063225+AHw-gb+AHw-EC749108.1+AHw- atpB 1 50 +
+Polytomella_parva_5063EST 110064555+AHw-gb+AHw-EC750438.1+AHw- atpA 1 159 +
+Polytomella_parva_5063EST 110062960+AHw-gb+AHw-EC748843.1+AHw- petD 443 622 -
+MMETSP0063 CAMNT_0047808567 atpB 1 165 +
+MMETSP0063 CAMNT_0047824433 atpA 1 321 +
+MMETSP0063 CAMNT_0047809351 petD 1 761 +
+MMETSP1180 CAMNT_0007088171 petD 344 1072 -
+MMETSP1180 CAMNT_0007087173 atpA 1 205 +
+MMETSP1180 CAMNT_0007091221 atpB 1 128 +
+MMETSP1126 CAMNT_0048937165 atpB 2042 2332 -
+MMETSP1126 CAMNT_0048952899 petG 1 466 +
+MMETSP1126 CAMNT_0048939591 atpA 2217 2455 -
+MMETSP1126 CAMNT_0048936511 psaB 1 2 +
+MMETSP1127 CAMNT_0048975119 atpB 1 195 +
+MMETSP1127 CAMNT_0048976059 atpA 1 250 +
+MMETSP1127 CAMNT_0048996147 petD 378 2880 -
+::::::::::::::
+wgs_intergenic_regions.csv
+::::::::::::::
+species gene1 gene2 end1 start2 intergenic_region strand
+Casymmetrica_psbC_contig psbC ORF2971 1443 4860 3417 -
+Coelastrella_ccsApetDpsaB_contig petD petA 1651 1075 576 +
+Coelastrella_petG_contig petG psbL 44996 45970 974 -
+Casymmetrica_psbI_contig psbI atpA 1863 1660 203 +
+Cdebaryana_petG_contig petG psbL 2262 313 1949 +
+Squadricauda_atpBccsApetDpsaBpsbI_contig petD petA 20775 20365 410 +
+Squadricauda_atpBccsApetDpsaBpsbI_contig psbI atpA 54101 53978 123 +
+Squadricauda_atpBccsApetDpsaBpsbI_contig atpB ORF1995 43854 7226 36628 +
+Squadricauda_atpBccsApetDpsaBpsbI_contig psaB trnQ 35567 47702 -12135 +
+Squadricauda_petG_contig petG psbL 19049 19904 855 -
+Cdebaryana_petD_contig petD petA 511 2763 2252 -
+Coelastrella_psbI_contig petG psbL 38768 40373 1605 -
+Coelastrella_psbI_contig psbC ORF2971 1 75649 -75648 +
+Coelastrella_psbI_contig psbI atpA 18566 19049 483 -
+Casymmetrica_ccsA_contig ccsA trnL2 1166 3282 2116 -
+
+
+
+

@@ -1,0 +1,94 @@
+#!/bin/bash
+#PBS -S /bin/bash
+#PBS -N test
+#PBS -o test.out
+#PBS -e test.err
+
+#PBS -l nodes=1:ppn=32
+#PBS -l walltime=48:00:00
+#PBS -A lafontaine_project
+
+#PBS -m abe
+#PBS -M shogofa.mortaza@ibpc.fr
+
+#PBS -l epilogue=/shared/scripts/ADMIN__epilogue-qsub.example
+
+### FOR EVERYTHING BELOW, I ADVISE YOU TO MODIFY THE USER-part ONLY ###
+WORKDIR="/"
+if [[ $PBS_O_WORKDIR =~ ^/home/.*$ ]] ; then
+        echo "You cannot run any job from your homedir directy!".
+	exit 1
+fi
+NUM_NODES=$(cat $PBS_NODEFILE|uniq|wc -l)
+if [ ! -n "$PBS_O_HOME" ] || [ ! -n "$PBS_JOBID" ]; then
+        echo "At least one variable is needed but not defined. Please touch your manager about."
+        exit 1
+else
+        if [ $NUM_NODES -le 1 ]; then
+                WORKDIR+="scratch/"
+                export WORKDIR+=$(echo $PBS_O_HOME |sed 's#.*/\(home\|workdir\)/\(.*_team\)*.*#\2#g')"/$PBS_JOBID/"
+                mkdir $WORKDIR
+                rsync -ap $PBS_O_WORKDIR/ $WORKDIR/
+                
+                # if you need to check your job output during execution (example: each hour) you can uncomment the following line
+                # /shared/scripts/ADMIN__auto-rsync.example 3600 &
+        else 
+                export WORKDIR=$PBS_O_WORKDIR
+        fi
+fi
+
+echo "your current dir is: $PBS_O_WORKDIR"
+echo "your workdir is: $WORKDIR"
+echo "number of nodes: $NUM_NODES"
+echo "number of cores: "$(cat $PBS_NODEFILE|wc -l)
+echo "your execution environment: "$(cat $PBS_NODEFILE|uniq|while read line; do printf "%s" "$line "; done)
+
+cd $WORKDIR
+
+# If you're using only one node, it's counterproductive to use IB network for your MPI process communications
+if [ $NUM_NODES -eq 1 ]; then
+        export PSM_DEVICES=self,shm
+        export OMPI_MCA_mtl=^psm
+        export OMPI_MCA_btl=shm,self
+else
+# If you're using the AMD cluster technology, don't forget to set this environment variable to let your job plainly use IB interconnection.
+        PPN=$(grep $HOSTNAME $PBS_NODEFILE|wc -l)
+        export PSM_SHAREDCONTEXTS_MAX=$(($PPN/2))
+fi
+## END-DO
+
+
+##
+## USER part
+##
+
+## Environment settings (environment module loadings, etc.)
+# example: module load openmpi/gnu/1.6.5
+
+module load blast+/gnu/2.6.0
+module load python/gnu/2.7.5
+module load hdf5
+module load openmpi/gnu/1.6.5
+
+## your app calls
+# example: mpirun simulation.x
+
+echo "Start : "; date
+BATCH_SIZE=40
+touch mon_fichier
+echo "End : "; date
+
+##
+## END-USER part
+##
+
+
+# At the term of your job, you need to get back all produced data synchronizing workdir folder with you starting job folder 
+# and delete the temporary one (workdir)
+# A good practice is to reduce the file list you need to get back with rsync
+if [ $NUM_NODES -le 1 ]; then
+        cd $PBS_O_WORKDIR
+        rsync -ap $WORKDIR/ $PBS_O_WORKDIR/
+        rm -rf $WORKDIR
+fi
+## END-DO

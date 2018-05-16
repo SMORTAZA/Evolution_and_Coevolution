@@ -1,0 +1,69 @@
+##############################
+#Blast des opr Cre vs opr Cre#
+##############################
+
+- query et base de données = ens des OPRs de Cre
+- ds rep /workdir/ibpc_team/lafontaine_team/mortaza/ingrid2shogofa/, lancement de la commande :
+qsub run-blast-shogofa_lucifer.pbs
+- resultat du blast lancé sur Lucifer ==> /workdir/ibpc_team/lafontaine_team/mortaza/ingrid2shogofa/opr_vs_opr.blastp.csv
+- prendre OPR1 OPR2 Evalue
+awk '{print $1, $5, $18}' opr_vs_opr.blastp.csv >> opr_vs_opr_cytoscape.txt
+- copier en local pour l'utiliser dans Cytoscape à partir de /home/mortaza/Documents/OPRvsOPR
+scp mortaza@lucifer.lbt.ibpc.fr:/workdir/ibpc_team/lafontaine_team/mortaza/ingrid2shogofa/opr_vs_opr_cytoscape.txt .
+- creation de la fonction convert_blast_to_cytoscape(blast_file, cytoscape) dans fonctions.py
+- Cytoscape ==> voir au niv de la visualisation de la evalue
+- transformer les valeurs de evalue en -log(evalue)
+- pr rendre un fichier executable, faire : chmod +x fichier
+
+- Gephi
+- fonction permettant de creer 2 fichiers csv (input de Gephi) à partir de fichier-result de blast 
+
+- relancé sans seuil (resultats dans Lucifer, dans rep Genes)
+- pb de Cytoscape
+
+- installation de mcl pr clusteriser
+- /home/mortaza/local/bin/mcl (--help pr avoir des infos dessus)
+- type de ligne de commande lancé (output créé par défaut)
+/home/mortaza/local/bin/mcl cyto.txt --abc --abc-neg-log10 -I 2.0
+- /home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py opr_vs_opr.txt opr_vs_opr_0.001.txt 0.001
+
+***********
+- fichier resultat blast : opr_vs_opr.blastp.csv
+- awk '{print $1,$5,$17}' opr_vs_opr.blastp.csv >> ../opr_vs_opr.txt
+- /home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py opr_vs_opr_0.001.txt 1 7 1
+- connaitre les genes d'un cluster precis
+head -n 8 out.opr_vs_opr_0.001.txt.I60 | tail -n 1
+- connaitre les genes singletons
+tail -n 3 out.opr_vs_opr_0.001.txt.I30
+
+##############################
+#Blast des opr-dom vs opr-dom#
+##############################
+- ajout de code dans blastp.py
+- OPR1 OPR2 Evalue
+- comme des interactions repetées, revoir le fichier pour choisir la meilleure interaction 
+- fichier resultat blast : domains_opr_vs_opr.blastp.csv
+- awk '{print $1,$5,$17}' domains_opr_vs_opr.blastp.csv >> ../dom_opr_vs_opr.txt
+- convert_blast_to_cytoscape
+/home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py dom_opr_vs_opr.txt dom_opr_vs_opr_0.001.txt 0.001
+- mcl_command
+/home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py dom_opr_vs_opr_0.001.txt 1 7 1
+- mcl_analysis
+/home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py dom_opr_vs_opr_0.001.txt out1
+
+- faire la liste des domaines
+
+- analyse resultats MCL pr voir homogeneité des domaines et des classes
+
+/home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py out.dom_opr_vs_opr_0.001.txt.I10
+grep "(" out.dom_opr_vs_opr_0.001.txt.I10_descriptif.txt
+
+
+- 
+
+/home/mortaza/Documents/src/OPRvsOPR_rep/fonctions.py type_dom/by_dom_clusters/by_percentage/ >> Clusters_Compostition_id_or_not.txt
+
+##################
+#Ecriture de code#
+##################
+
