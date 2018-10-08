@@ -9,7 +9,7 @@
 #PBS -A lafontaine_project
 
 #PBS -m abe
-#PBS -M shogofa.mortaza@ibpc.fr
+#PBS -M s.mortaza@ibpc.fr
 
 #PBS -l epilogue=/shared/scripts/ADMIN__epilogue-qsub.example
 
